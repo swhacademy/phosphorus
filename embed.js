@@ -18,8 +18,8 @@
   iframe.setAttribute('allowfullscreen', true);
   iframe.setAttribute('allowtransparency', true);
   iframe.src = script.src.replace(/^http:/, 'https:').replace(/embed\.js/, 'embed.html');
-  iframe.width = hasUI ? 482 : 700;
-  iframe.height = hasUI ? 393 : 600;
+  iframe.width = hasUI ? 700 : 700;
+  iframe.height = hasUI ? 600 : 600;
   iframe.style.border = '0';
   iframe.className = 'phosphorus';
 
