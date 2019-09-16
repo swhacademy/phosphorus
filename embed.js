@@ -21,7 +21,7 @@
   iframe.width = 700;
   iframe.height = 600;
   iframe.style.border = '0';
-
+  iframe.setAttribute('scrolling', 'no');
 
   script.parentNode.replaceChild(iframe, script);
 
