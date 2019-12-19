@@ -1,0 +1,8 @@
+name : binder테스트
+channels:
+ - conda-forge
+dependencies:
+ - python
+ - numpy
+ - pip:
+  - pandas
